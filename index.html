@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grocery Bill Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+
+  <body>
+    <!--Grocery bill for one day-->
+    <h1>Grocery Bill calculator (today)</h1>
+    <h2>Amount spent today: <input id="today" type="text" /></h2>
+    <h2>
+      discount/sale % (type 0 if none) <input id="discount" type="text" />
+    </h2>
+    <h2>Tax %: <input id="tax" type="text" /></h2>
+    <button id="grocerytoday">Calculate today's bill</button>
+    <h3>Today's grocery bill: $<span id="grocerybill">-----</span></h3>
+    <hr />
+    <!--Grocery bill weekly (average and with tax)-->
+    <h1>Weekly Grocery Bill Calculator (7d)</h1>
+    <h2>Amount spent in one day (most): <input id="most" type="text" /></h2>
+    <h2>Amount spent in one day (least): <input id="least" type="text" /></h2>
+    <h2>
+      discount/sale % (type 0 if none) <input id="discount2" type="text" />
+    </h2>
+    <h2>Tax %: <input id="tax2" type="text" /></h2>
+    <button id="week">Calculate today's bill</button>
+    <h3>
+      Weekly grocery bill (average): $<span id="grocerybill2">-----</span>
+    </h3>
+    <hr />
+    <!--Grocery bill monthly (average and with tax)-->
+    <h1>Month Grocery Bill Calculator (30d)</h1>
+    <h2>Amount spent in one day (most): <input id="most2" type="text" /></h2>
+    <h2>Amount spent in one day (least): <input id="least2" type="text" /></h2>
+    <h2>
+      discount/sale % (type 0 if none) <input id="discount3" type="text" />
+    </h2>
+    <h2>Tax %: <input id="tax3" type="text" /></h2>
+    <button id="month">Calculate today's bill</button>
+    <h3>
+      Weekly grocery bill (average): $<span id="grocerybill3">-----</span>
+    </h3>
+  </body>
+</html>
